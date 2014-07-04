@@ -7,9 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "TileView.h"
 
 @interface ViewController ()
-
+{
+TileView *tileV;
+}
 @end
 
 @implementation ViewController
@@ -17,13 +20,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
+-(void)viewDidAppear:(BOOL)animated
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [super viewDidAppear:animated];
+    
+    tileV = [[TileView alloc] initWithFrame:CGRectMake(10, 100, 300, 180)];
+    [self.view addSubview:tileV];
+    
 }
+
 
 @end

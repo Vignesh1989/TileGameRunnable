@@ -21,6 +21,7 @@
 		2F2A74981966B2D2006DEFE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F2A747A1966B2D2006DEFE2 /* UIKit.framework */; };
 		2F2A74A01966B2D2006DEFE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F2A749E1966B2D2006DEFE2 /* InfoPlist.strings */; };
 		2F2A74A21966B2D2006DEFE2 /* TileGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2A74A11966B2D2006DEFE2 /* TileGameTests.m */; };
+		2F2A74AD1966B30B006DEFE2 /* TileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2A74AC1966B30B006DEFE2 /* TileView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		2F2A749D1966B2D2006DEFE2 /* TileGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TileGameTests-Info.plist"; sourceTree = "<group>"; };
 		2F2A749F1966B2D2006DEFE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2F2A74A11966B2D2006DEFE2 /* TileGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TileGameTests.m; sourceTree = "<group>"; };
+		2F2A74AB1966B30B006DEFE2 /* TileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileView.h; sourceTree = "<group>"; };
+		2F2A74AC1966B30B006DEFE2 /* TileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		2F2A747C1966B2D2006DEFE2 /* TileGame */ = {
 			isa = PBXGroup;
 			children = (
+				2F2A74AB1966B30B006DEFE2 /* TileView.h */,
+				2F2A74AC1966B30B006DEFE2 /* TileView.m */,
 				2F2A74851966B2D2006DEFE2 /* AppDelegate.h */,
 				2F2A74861966B2D2006DEFE2 /* AppDelegate.m */,
 				2F2A74881966B2D2006DEFE2 /* Main.storyboard */,
@@ -251,6 +256,7 @@
 			files = (
 				2F2A748D1966B2D2006DEFE2 /* ViewController.m in Sources */,
 				2F2A74871966B2D2006DEFE2 /* AppDelegate.m in Sources */,
+				2F2A74AD1966B30B006DEFE2 /* TileView.m in Sources */,
 				2F2A74831966B2D2006DEFE2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
